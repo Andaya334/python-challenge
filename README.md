@@ -1,8 +1,8 @@
-![revenue-per-lead](https://user-images.githubusercontent.com/117672086/213292766-fa8bcbbf-a60e-4462-9ff0-406aa4b916b1.png)![revenue-per-lead](https://user-images.githubusercontent.com/117672086/213293032-2be4c8ee-7ff4-470b-be2e-682a8b148bcb.png)
-
-
-
 # python-challenge 3
+
+![revenue-per-lead](https://user-images.githubusercontent.com/117672086/213292766-fa8bcbbf-a60e-4462-9ff0-406aa4b916b1.png)
+![Vote_counting](https://user-images.githubusercontent.com/117672086/213293167-1f9bb56e-3512-4134-a27a-f6eb7c54be4f.png)
+
 Background
 
 It's time to put away the Excel sheet and join the big leagues. Welcome to the world of programming with Python. In this homework assignment, you'll use the concepts you've learned to complete the **two** Python challenges, PyBank and PyPoll.

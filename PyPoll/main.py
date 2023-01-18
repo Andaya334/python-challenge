@@ -17,8 +17,9 @@ export_file=os.path.join("analysis", "election_data.txt")
 vote_list = []
 candidates = []
 candidate_percent = []
-candidate_count = []
 totalvote = 0
+candidate_count = []
+
 
 with open(election_data_csv, 'r') as csvfile:
     csvreader = csv.reader(csvfile, delimiter=',')
@@ -36,7 +37,7 @@ for name in vote_list:
 
 count = 0
 candidate = vote_list[0]
-lastCount = 0
+final_count = 0
 
 # Print Election Results
 print("Election Results")
@@ -52,11 +53,11 @@ for candidate in candidates:
     candidate_percent.append(percent)
     candidate_count.append(count)
     
-    if lastCount < count:
+    if final_count < count:
         Winner = candidate    
     print(f"{candidate}: {percent:.3%} ({count})")
     
-    lastCount = count
+    final_count = count
     count = 0
 
 # print winner
@@ -70,7 +71,6 @@ with open(export_file, 'w') as outfile:
     outfile.write("------------------\n")
     outfile.write(f"Total Votes: {totalvote}\n")
     outfile.write("--------------------\n")
-
     for candidate in candidates:
         index = candidates.index(candidate)
         outfile.write(f"{candidate}: {candidate_percent[index]:.3%} ({candidate_count[index]})\n")

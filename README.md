@@ -1,3 +1,7 @@
+![revenue-per-lead](https://user-images.githubusercontent.com/117672086/213292766-fa8bcbbf-a60e-4462-9ff0-406aa4b916b1.png)![revenue-per-lead](https://user-images.githubusercontent.com/117672086/213293032-2be4c8ee-7ff4-470b-be2e-682a8b148bcb.png)
+
+
+
 # python-challenge 3
 Background
 

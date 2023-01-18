@@ -85,7 +85,7 @@ print(f"Greatest Increase in Profits: {increase_start} (${greatest_increase})")
 print(F"Greatest Decrease in Losses: {decrease_start} (${greatest_decrease})")
 
 #export with results
-budget_file=os.path.join("budget_data.txt")
+budget_file=os.path.join("analysis","budget_data.txt")
 with open(budget_file, "w") as outfile:
 
     outfile.write(f"Financial Analysis\n")

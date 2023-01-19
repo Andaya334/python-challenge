@@ -71,8 +71,6 @@ with open(export_file, 'w') as outfile:
     outfile.write("------------------\n")
     outfile.write(f"Total Votes: {totalvote}\n")
     outfile.write("--------------------\n")
-    for candidate in candidates:
-        index = candidates.index(candidate)
-        outfile.write(f"{candidate}: {candidate_percent[index]:.3%} ({candidate_count[index]})\n")
+    outfile.write(f"{candidate}: {candidate_percent[index]:.3%} ({candidate_count[index]})\n")
     outfile.write("--------------------------\n")
     outfile.write(f"Winner: {Winner}\n")
